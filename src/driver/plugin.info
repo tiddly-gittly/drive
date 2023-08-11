@@ -1,0 +1,9 @@
+{
+  "title": "$:/plugins/mabuqian/driver",
+  "name": "driver",
+  "author": "mabuqian",
+  "description": "",
+  "plugin-type": "plugin",
+  "version": "0.0.1",
+  "list": "readme"
+}
