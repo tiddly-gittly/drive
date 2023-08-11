@@ -1,6 +1,9 @@
 created: 20230811070419041
-modified: 20230811070539227
+modified: 20230811113343021
 title: index
 type: text/vnd.tiddlywiki
 
 搞这个插件是因为看到[[https://github.com/kamranahmedse/driver.js]]，感觉挺有意思。如果能包装成插件的形式，提供微件供别人调用，这样的话，就可以生成引导界面了。方便写插件介绍或者引导新手使用tiddlywiki。
+
+
+<$driver/>
