@@ -1,4 +1,6 @@
+created: 20230811070354649
+modified: 20230811070354649
 title: $:/SiteSubtitle
 type: text/vnd.tiddlywiki
 
-<$list filter="[[$:/language]get[text]removeprefix[$:/languages/]else[en-GB]]" variable="lang"><$list filter="[<lang>search[zh]]">现代太微插件开发框架</$list><$list filter="[<lang>!search[zh]]">Modern ~TiddlyWiki  plugin developing framework</$list></$list>
+A light-weight, no-dependency, vanilla JavaScript engine to drive the user's focus across the page
