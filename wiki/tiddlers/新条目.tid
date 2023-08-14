@@ -1,0 +1,11 @@
+created: 20230811155116521
+modified: 20230811155226356
+tags: 
+title: 新条目
+type: text/vnd.tiddlywiki
+
+<$button popup=<<qualify "$:/state/popup/fishingdeck">> tooltip="回到顶端" aria-label="回到顶端" class=<<tv-config-toolbar-class>> selectedClass="tc-selected" style="display: block;width: 100%;margin: 1em auto;">
+<$action-navigate $to=<<currentTiddler>>/>
+<$driver $tiddler=<<currentTiddler>>  />
+{{$:/core/images/up-arrow}}
+</$button>

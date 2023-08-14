@@ -12,14 +12,17 @@ class DriverWidget extends Widget {
         this.parentDomNode = parent;
         this.execute();
 
-        const driverObj = driver();
-        driverObj.highlight({
-            element: "#some-element",
-            popover: {
-                title: "Title",
-                description: "Description"
-            }
+        const driverObj = driver({
+            showProgress: true,
+            steps: [
+                { element: '.tc-titlebar', popover: { title: 'Title', description: 'Description' } },
+                { element: '.tc-tiddler-controls', popover: { title: 'Title', description: 'Description' } },
+                { element: '.tc-sidebar', popover: { title: 'Title', description: 'Description' } },
+                { element: '.footer', popover: { title: 'Title', description: 'Description' } },
+            ]
         });
+
+        driverObj.drive()
     }
 }
 
